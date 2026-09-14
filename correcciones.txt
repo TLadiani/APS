@@ -1,0 +1,11 @@
+Correcciones de las TSs
+
+Ts1:
+
+* En los gráficos que muestran la FFT, el título Espectro de Frecuencia, es redundate. En nuestra materia,
+  en sentido amplio nos referimos al espectro de la señal. En esos gráficos, la etiqueta adecuada sería, 
+  módulo de la FFT de la señal o simbólicamente |X(k)|. 
+
+* El criterio para graficar las señales o los espectros que usás, a veces no es conveniente. Por ejemplo el 
+  espectro de la delta, claramente no muestra lo que en teoría uno espera; eso porque usás stem. Stem te 
+  sirve con las sinusoidales, más o menos; pero en los demás casos no es conveniente.
