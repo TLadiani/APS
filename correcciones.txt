@@ -1,11 +1,25 @@
 Correcciones de las TSs
 
-Ts1:
+TS1: Análisis de Señales
 
 * En los gráficos que muestran la FFT, el título Espectro de Frecuencia, es redundate. En nuestra materia,
   en sentido amplio nos referimos al espectro de la señal. En esos gráficos, la etiqueta adecuada sería, 
-  módulo de la FFT de la señal o simbólicamente |X(k)|. 
-
+  módulo de la FFT de la señal o simbólicamente |X(k)|.
 * El criterio para graficar las señales o los espectros que usás, a veces no es conveniente. Por ejemplo el 
   espectro de la delta, claramente no muestra lo que en teoría uno espera; eso porque usás stem. Stem te 
   sirve con las sinusoidales, más o menos; pero en los demás casos no es conveniente.
+
+TS3: Desparramo Espectral
+
+* Buen trabajo en líneas generales, especialmente en el desarrollo de la Conclusión.
+* Los gráficos del espectro de la señal tienen en el eje vertical una etiqueta que no es correcta: No es 
+  Potencia. Potencia es la sumatoria de esos valores.
+* Siendo que la señal es sinusoidal normalizada en potencia, la delta no puede ser de valor unitario. Vos 
+  estás graficando la mitad del espectro. Te falta la otra delta de la sinusoidal, la suma de ambas tiene 
+  que dar uno.
+* Es mejor usar stem o alguna otra manera de graficar con puntos y no con líneas continuas, ya que la 
+  DFT (FFT) no es continua.
+* Hubiese quedado mejor hacer un zoom en el rango de frecuencias que pueda mostrar mejor el efecto del 
+  zero padding.
+* En la conclusión faltó hablar del efecto en frecuencia de la ventana implícita y explícita del zero 
+  padding (convolución). 
