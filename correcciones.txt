@@ -23,3 +23,13 @@ TS3: Desparramo Espectral
   zero padding.
 * En la conclusión faltó hablar del efecto en frecuencia de la ventana implícita y explícita del zero 
   padding (convolución). 
+
+TS4: Estimadores
+
+* Falta el histograma del estimador de frecuencias.
+* En la conclusión decís: "Al incrementar el SNR de 3 dB a 10 dB, la varianza de todos los estimadores 
+  (tanto de amplitud como de frecuencia) se redujo drásticamente. Esto no es lo que uno puede ver en las 
+  tablas.
+* Hubiese estado mejor, para mayor claridad, que pongas en los ejes horizontales de cada subplot los valores 
+  de amplitud.
+ 
