@@ -32,4 +32,16 @@ TS4: Estimadores
   tablas.
 * Hubiese estado mejor, para mayor claridad, que pongas en los ejes horizontales de cada subplot los valores 
   de amplitud.
- 
+
+TS5: Estimación Espectral
+
+* Falta un poco más de desarrollo en la justificación del uso de Welch como método de estimación espectral frente
+  a Blackman-Tukey.
+* En una parte del desarrollo ponés: "disminuye drásticamente la varianza", por qué? Para decirlo en esos términos 
+  tendrías que calcular la varianza. En la introducción también hacés lo mismo, pero se justifica un poco dado que
+  estás presentando el tema.
+* Falta desarrollo en la conclusión, entre otras cosas podrías referirte a cómo afectó la varianza de la estimación 
+  espectral en la estimación del ancho de banda. 
+* En la introducción escribís "el enventanado suave", sería más adecuado usar otro término.
+* Falta gráficos de las señales en el domino del tiempo.
+* Falta etiqueta vertical en los dos primero gráficos.
